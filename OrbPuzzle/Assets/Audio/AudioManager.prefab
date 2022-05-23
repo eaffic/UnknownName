@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2921248194888127934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2921248194888127932}
+  - component: {fileID: 2921248194888127935}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2921248194888127932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2921248194888127934}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2921248194888127935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2921248194888127934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8a5612e6bc125f46803435c9073b467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _volumeChangeSpeed: 0.01
+  _TitleBGMClip: {fileID: 8300000, guid: ec34bc6f113a5fe47a9522320b2197b0, type: 3}
+  _SelectBGMClip: {fileID: 0}
+  _StageBGMClip: {fileID: 8300000, guid: 1e935a8c8114641449c5dcb09c6f58e6, type: 3}
+  _ResultBGMClip: {fileID: 8300000, guid: df8e3ddbe42b70c498c02c7dcdc09c3f, type: 3}
+  _WalkStepClips: {fileID: 8300000, guid: 91db79b629e1cb24581888a2175cc6e2, type: 3}
+  _RunStepClips: {fileID: 8300000, guid: 6b4dcb2fe728a1744bda0fa2c51aba42, type: 3}
+  _JumpClip: {fileID: 8300000, guid: ed0fd69b69d84f249be48bfee3c418f2, type: 3}
+  _PunchClip: {fileID: 8300000, guid: 5069396b0b40c88488d7c7db876edfea, type: 3}
+  _LaserClip: {fileID: 8300000, guid: b5f1f89c73e4d214d9ada4c84adb5549, type: 3}
+  _OpenTargetClip: {fileID: 8300000, guid: b5f1f89c73e4d214d9ada4c84adb5549, type: 3}
+  _BoxMoveClip: {fileID: 8300000, guid: 48c74d458aebb3c4e9cbe8edf4f72bfb, type: 3}
+  _BoxDownClip: {fileID: 8300000, guid: 405f94aa8a720484abc2b6f522c35e05, type: 3}
+  _MagicCircle: {fileID: 8300000, guid: 73412a1d4026ea546b67869a74606f8f, type: 3}

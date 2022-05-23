@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scene Change Shader Graph
+  m_Shader: {fileID: -6465566751694194690, guid: 06c6f5d281d95c346bd4ffb57379c46d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_7e38bc43593b4b93864616ba73f959fb:
+        m_Texture: {fileID: 2800000, guid: f3ccc2f61dec0a343a6e4b984e59a4bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f3ccc2f61dec0a343a6e4b984e59a4bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Cutoff_: -0.2
+    - Smoothing_: 0.1
+    - Vector1_68c9c1f8ff044c9c9f1895f56a4ca3e0: 0.67
+    - Vector1_9d11d8f6d57f44f5bc6e2d2a298379b3: 0.1
+    - _Cutoff: 1.1
+    - _Smoothing: 0.3
+    m_Colors:
+    - Color_07179ad5b6bb484295dabef719004178: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
